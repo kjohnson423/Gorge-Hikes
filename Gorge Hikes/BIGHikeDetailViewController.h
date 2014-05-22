@@ -1,0 +1,20 @@
+//
+//  BIGHikeDetailViewController.h
+//  Gorge Hikes
+//
+//  Created by Kyle on 5/21/14.
+//  Copyright (c) 2014 Big Chicken. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface BIGHikeDetailViewController : UIViewController
+
+@property (nonatomic) NSString *thisName;
+@property (nonatomic) NSString *thisDifficulty;
+@property (nonatomic) NSString *thisConfiguration;
+@property (nonatomic) NSString *thisSeason;
+@property (nonatomic) BOOL isCompleted;
+@property (nonatomic) float thisDistance;
+
+@end

@@ -22,6 +22,10 @@
 		5491E143192D9B6500C786D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E127192D9B6500C786D7 /* CoreData.framework */; };
 		5491E14B192D9B6500C786D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5491E149192D9B6500C786D7 /* InfoPlist.strings */; };
 		5491E14D192D9B6500C786D7 /* Gorge_HikesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E14C192D9B6500C786D7 /* Gorge_HikesTests.m */; };
+		5491E157192D9BBF00C786D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5491E156192D9BBF00C786D7 /* MainStoryboard.storyboard */; };
+		5491E15A192D9C2200C786D7 /* BIGHikesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E159192D9C2200C786D7 /* BIGHikesTableViewController.m */; };
+		5491E15D192D9CEE00C786D7 /* BIGhike.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E15C192D9CEE00C786D7 /* BIGhike.m */; };
+		5491E160192DAC8E00C786D7 /* BIGHikeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E15F192DAC8E00C786D7 /* BIGHikeDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		5491E148192D9B6500C786D7 /* Gorge HikesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gorge HikesTests-Info.plist"; sourceTree = "<group>"; };
 		5491E14A192D9B6500C786D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5491E14C192D9B6500C786D7 /* Gorge_HikesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gorge_HikesTests.m; sourceTree = "<group>"; };
+		5491E156192D9BBF00C786D7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5491E158192D9C2200C786D7 /* BIGHikesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIGHikesTableViewController.h; sourceTree = "<group>"; };
+		5491E159192D9C2200C786D7 /* BIGHikesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIGHikesTableViewController.m; sourceTree = "<group>"; };
+		5491E15B192D9CEE00C786D7 /* BIGhike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIGhike.h; path = ../BIGhike.h; sourceTree = "<group>"; };
+		5491E15C192D9CEE00C786D7 /* BIGhike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIGhike.m; path = ../BIGhike.m; sourceTree = "<group>"; };
+		5491E15E192DAC8E00C786D7 /* BIGHikeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIGHikeDetailViewController.h; sourceTree = "<group>"; };
+		5491E15F192DAC8E00C786D7 /* BIGHikeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIGHikeDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,7 @@
 		5491E115192D9B6400C786D7 = {
 			isa = PBXGroup;
 			children = (
+				5491E156192D9BBF00C786D7 /* MainStoryboard.storyboard */,
 				5491E129192D9B6500C786D7 /* Gorge Hikes */,
 				5491E146192D9B6500C786D7 /* Gorge HikesTests */,
 				5491E120192D9B6500C786D7 /* Frameworks */,
@@ -115,6 +127,12 @@
 		5491E129192D9B6500C786D7 /* Gorge Hikes */ = {
 			isa = PBXGroup;
 			children = (
+				5491E15E192DAC8E00C786D7 /* BIGHikeDetailViewController.h */,
+				5491E15F192DAC8E00C786D7 /* BIGHikeDetailViewController.m */,
+				5491E15B192D9CEE00C786D7 /* BIGhike.h */,
+				5491E15C192D9CEE00C786D7 /* BIGhike.m */,
+				5491E158192D9C2200C786D7 /* BIGHikesTableViewController.h */,
+				5491E159192D9C2200C786D7 /* BIGHikesTableViewController.m */,
 				5491E132192D9B6500C786D7 /* BIGAppDelegate.h */,
 				5491E133192D9B6500C786D7 /* BIGAppDelegate.m */,
 				5491E138192D9B6500C786D7 /* Images.xcassets */,
@@ -229,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5491E157192D9BBF00C786D7 /* MainStoryboard.storyboard in Resources */,
 				5491E12E192D9B6500C786D7 /* InfoPlist.strings in Resources */,
 				5491E139192D9B6500C786D7 /* Images.xcassets in Resources */,
 			);
@@ -250,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5491E130192D9B6500C786D7 /* main.m in Sources */,
+				5491E15A192D9C2200C786D7 /* BIGHikesTableViewController.m in Sources */,
 				5491E134192D9B6500C786D7 /* BIGAppDelegate.m in Sources */,
+				5491E15D192D9CEE00C786D7 /* BIGhike.m in Sources */,
 				5491E137192D9B6500C786D7 /* Gorge_Hikes.xcdatamodeld in Sources */,
+				5491E160192DAC8E00C786D7 /* BIGHikeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
