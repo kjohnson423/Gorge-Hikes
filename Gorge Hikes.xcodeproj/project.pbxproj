@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5491E122192D9B6500C786D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E121192D9B6500C786D7 /* Foundation.framework */; };
+		5491E124192D9B6500C786D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E123192D9B6500C786D7 /* CoreGraphics.framework */; };
+		5491E126192D9B6500C786D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E125192D9B6500C786D7 /* UIKit.framework */; };
+		5491E128192D9B6500C786D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E127192D9B6500C786D7 /* CoreData.framework */; };
+		5491E12E192D9B6500C786D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5491E12C192D9B6500C786D7 /* InfoPlist.strings */; };
+		5491E130192D9B6500C786D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E12F192D9B6500C786D7 /* main.m */; };
+		5491E134192D9B6500C786D7 /* BIGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E133192D9B6500C786D7 /* BIGAppDelegate.m */; };
+		5491E137192D9B6500C786D7 /* Gorge_Hikes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5491E135192D9B6500C786D7 /* Gorge_Hikes.xcdatamodeld */; };
+		5491E139192D9B6500C786D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5491E138192D9B6500C786D7 /* Images.xcassets */; };
+		5491E140192D9B6500C786D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E13F192D9B6500C786D7 /* XCTest.framework */; };
+		5491E141192D9B6500C786D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E121192D9B6500C786D7 /* Foundation.framework */; };
+		5491E142192D9B6500C786D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E125192D9B6500C786D7 /* UIKit.framework */; };
+		5491E143192D9B6500C786D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491E127192D9B6500C786D7 /* CoreData.framework */; };
+		5491E14B192D9B6500C786D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5491E149192D9B6500C786D7 /* InfoPlist.strings */; };
+		5491E14D192D9B6500C786D7 /* Gorge_HikesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491E14C192D9B6500C786D7 /* Gorge_HikesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5491E144192D9B6500C786D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5491E116192D9B6400C786D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5491E11D192D9B6500C786D7;
+			remoteInfo = "Gorge Hikes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5491E11E192D9B6500C786D7 /* Gorge Hikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gorge Hikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5491E121192D9B6500C786D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5491E123192D9B6500C786D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5491E125192D9B6500C786D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5491E127192D9B6500C786D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5491E12B192D9B6500C786D7 /* Gorge Hikes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gorge Hikes-Info.plist"; sourceTree = "<group>"; };
+		5491E12D192D9B6500C786D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5491E12F192D9B6500C786D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5491E131192D9B6500C786D7 /* Gorge Hikes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gorge Hikes-Prefix.pch"; sourceTree = "<group>"; };
+		5491E132192D9B6500C786D7 /* BIGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIGAppDelegate.h; sourceTree = "<group>"; };
+		5491E133192D9B6500C786D7 /* BIGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIGAppDelegate.m; sourceTree = "<group>"; };
+		5491E136192D9B6500C786D7 /* Gorge_Hikes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gorge_Hikes.xcdatamodel; sourceTree = "<group>"; };
+		5491E138192D9B6500C786D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5491E13E192D9B6500C786D7 /* Gorge HikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gorge HikesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5491E13F192D9B6500C786D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5491E148192D9B6500C786D7 /* Gorge HikesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gorge HikesTests-Info.plist"; sourceTree = "<group>"; };
+		5491E14A192D9B6500C786D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5491E14C192D9B6500C786D7 /* Gorge_HikesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gorge_HikesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5491E11B192D9B6500C786D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491E124192D9B6500C786D7 /* CoreGraphics.framework in Frameworks */,
+				5491E128192D9B6500C786D7 /* CoreData.framework in Frameworks */,
+				5491E126192D9B6500C786D7 /* UIKit.framework in Frameworks */,
+				5491E122192D9B6500C786D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5491E13B192D9B6500C786D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491E140192D9B6500C786D7 /* XCTest.framework in Frameworks */,
+				5491E143192D9B6500C786D7 /* CoreData.framework in Frameworks */,
+				5491E142192D9B6500C786D7 /* UIKit.framework in Frameworks */,
+				5491E141192D9B6500C786D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5491E115192D9B6400C786D7 = {
+			isa = PBXGroup;
+			children = (
+				5491E129192D9B6500C786D7 /* Gorge Hikes */,
+				5491E146192D9B6500C786D7 /* Gorge HikesTests */,
+				5491E120192D9B6500C786D7 /* Frameworks */,
+				5491E11F192D9B6500C786D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5491E11F192D9B6500C786D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5491E11E192D9B6500C786D7 /* Gorge Hikes.app */,
+				5491E13E192D9B6500C786D7 /* Gorge HikesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5491E120192D9B6500C786D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5491E121192D9B6500C786D7 /* Foundation.framework */,
+				5491E123192D9B6500C786D7 /* CoreGraphics.framework */,
+				5491E125192D9B6500C786D7 /* UIKit.framework */,
+				5491E127192D9B6500C786D7 /* CoreData.framework */,
+				5491E13F192D9B6500C786D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5491E129192D9B6500C786D7 /* Gorge Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				5491E132192D9B6500C786D7 /* BIGAppDelegate.h */,
+				5491E133192D9B6500C786D7 /* BIGAppDelegate.m */,
+				5491E138192D9B6500C786D7 /* Images.xcassets */,
+				5491E135192D9B6500C786D7 /* Gorge_Hikes.xcdatamodeld */,
+				5491E12A192D9B6500C786D7 /* Supporting Files */,
+			);
+			path = "Gorge Hikes";
+			sourceTree = "<group>";
+		};
+		5491E12A192D9B6500C786D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5491E12B192D9B6500C786D7 /* Gorge Hikes-Info.plist */,
+				5491E12C192D9B6500C786D7 /* InfoPlist.strings */,
+				5491E12F192D9B6500C786D7 /* main.m */,
+				5491E131192D9B6500C786D7 /* Gorge Hikes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5491E146192D9B6500C786D7 /* Gorge HikesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5491E14C192D9B6500C786D7 /* Gorge_HikesTests.m */,
+				5491E147192D9B6500C786D7 /* Supporting Files */,
+			);
+			path = "Gorge HikesTests";
+			sourceTree = "<group>";
+		};
+		5491E147192D9B6500C786D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5491E148192D9B6500C786D7 /* Gorge HikesTests-Info.plist */,
+				5491E149192D9B6500C786D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5491E11D192D9B6500C786D7 /* Gorge Hikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5491E150192D9B6500C786D7 /* Build configuration list for PBXNativeTarget "Gorge Hikes" */;
+			buildPhases = (
+				5491E11A192D9B6500C786D7 /* Sources */,
+				5491E11B192D9B6500C786D7 /* Frameworks */,
+				5491E11C192D9B6500C786D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gorge Hikes";
+			productName = "Gorge Hikes";
+			productReference = 5491E11E192D9B6500C786D7 /* Gorge Hikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5491E13D192D9B6500C786D7 /* Gorge HikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5491E153192D9B6500C786D7 /* Build configuration list for PBXNativeTarget "Gorge HikesTests" */;
+			buildPhases = (
+				5491E13A192D9B6500C786D7 /* Sources */,
+				5491E13B192D9B6500C786D7 /* Frameworks */,
+				5491E13C192D9B6500C786D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5491E145192D9B6500C786D7 /* PBXTargetDependency */,
+			);
+			name = "Gorge HikesTests";
+			productName = "Gorge HikesTests";
+			productReference = 5491E13E192D9B6500C786D7 /* Gorge HikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5491E116192D9B6400C786D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Big Chicken";
+				TargetAttributes = {
+					5491E13D192D9B6500C786D7 = {
+						TestTargetID = 5491E11D192D9B6500C786D7;
+					};
+				};
+			};
+			buildConfigurationList = 5491E119192D9B6500C786D7 /* Build configuration list for PBXProject "Gorge Hikes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5491E115192D9B6400C786D7;
+			productRefGroup = 5491E11F192D9B6500C786D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5491E11D192D9B6500C786D7 /* Gorge Hikes */,
+				5491E13D192D9B6500C786D7 /* Gorge HikesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5491E11C192D9B6500C786D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491E12E192D9B6500C786D7 /* InfoPlist.strings in Resources */,
+				5491E139192D9B6500C786D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5491E13C192D9B6500C786D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491E14B192D9B6500C786D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5491E11A192D9B6500C786D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491E130192D9B6500C786D7 /* main.m in Sources */,
+				5491E134192D9B6500C786D7 /* BIGAppDelegate.m in Sources */,
+				5491E137192D9B6500C786D7 /* Gorge_Hikes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5491E13A192D9B6500C786D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491E14D192D9B6500C786D7 /* Gorge_HikesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5491E145192D9B6500C786D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5491E11D192D9B6500C786D7 /* Gorge Hikes */;
+			targetProxy = 5491E144192D9B6500C786D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5491E12C192D9B6500C786D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5491E12D192D9B6500C786D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5491E149192D9B6500C786D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5491E14A192D9B6500C786D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5491E14E192D9B6500C786D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5491E14F192D9B6500C786D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5491E151192D9B6500C786D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gorge Hikes/Gorge Hikes-Prefix.pch";
+				INFOPLIST_FILE = "Gorge Hikes/Gorge Hikes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5491E152192D9B6500C786D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gorge Hikes/Gorge Hikes-Prefix.pch";
+				INFOPLIST_FILE = "Gorge Hikes/Gorge Hikes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5491E154192D9B6500C786D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gorge Hikes.app/Gorge Hikes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gorge Hikes/Gorge Hikes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gorge HikesTests/Gorge HikesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5491E155192D9B6500C786D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gorge Hikes.app/Gorge Hikes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gorge Hikes/Gorge Hikes-Prefix.pch";
+				INFOPLIST_FILE = "Gorge HikesTests/Gorge HikesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5491E119192D9B6500C786D7 /* Build configuration list for PBXProject "Gorge Hikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5491E14E192D9B6500C786D7 /* Debug */,
+				5491E14F192D9B6500C786D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5491E150192D9B6500C786D7 /* Build configuration list for PBXNativeTarget "Gorge Hikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5491E151192D9B6500C786D7 /* Debug */,
+				5491E152192D9B6500C786D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5491E153192D9B6500C786D7 /* Build configuration list for PBXNativeTarget "Gorge HikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5491E154192D9B6500C786D7 /* Debug */,
+				5491E155192D9B6500C786D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5491E135192D9B6500C786D7 /* Gorge_Hikes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5491E136192D9B6500C786D7 /* Gorge_Hikes.xcdatamodel */,
+			);
+			currentVersion = 5491E136192D9B6500C786D7 /* Gorge_Hikes.xcdatamodel */;
+			path = Gorge_Hikes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5491E116192D9B6400C786D7 /* Project object */;
+}
