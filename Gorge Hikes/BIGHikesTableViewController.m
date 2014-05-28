@@ -117,7 +117,11 @@
 // -------- 'self.hikes' data set A-OK!! ----------
     
 }
-
+- (void)viewWillAppear:(BOOL)animated;
+{
+    [super viewWillAppear:YES];
+    [self.tableView reloadData];
+}
 
 #pragma mark - Table view data source
 
@@ -142,6 +146,13 @@
     cell.textLabel.text = thisHike.hikeName;
     
     
+    
+    if (thisHike.completed) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
     return cell;
 }
 
@@ -152,7 +163,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     BIGhike *theHike = [self.hikes objectAtIndex:indexPath.row];
     
     if ([segue.identifier isEqualToString:@"pushToDetail"]) {
@@ -162,9 +173,26 @@
         detailController.thisDistance = theHike.hikeDistance;
         detailController.thisSeason = theHike.hikeSeason;
         detailController.thisConfiguration = theHike.hikeConfiguration;
+        detailController.isCompleted = theHike.completed;
     }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+}
+
+- (IBAction)unwindAddHike:(UIStoryboardSegue *)segue
+{
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    BIGhike *theHike = [self.hikes objectAtIndex:indexPath.row];
+    
+    theHike.completed = YES;
+}
+
+- (IBAction)unwindRemoveHike:(UIStoryboardSegue *)segue
+{
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    BIGhike *theHike = [self.hikes objectAtIndex:indexPath.row];
+    
+    theHike.completed = NO;
 }
 
 
