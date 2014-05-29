@@ -11,7 +11,7 @@
 @interface BIGHikesTableViewController : UITableViewController
 @property (nonatomic) NSArray *hikes;
 
-- (IBAction)unwindAddHike:(UIStoryboardSegue *)segue sender:(id)sender;
-- (IBAction)unwindRemoveHike:(UIStoryboardSegue *)segue sender:(id)sender;
+- (IBAction)unwindAddHike:(UIStoryboardSegue *)segue;
+- (IBAction)unwindRemoveHike:(UIStoryboardSegue *)segue;
 
 @end
