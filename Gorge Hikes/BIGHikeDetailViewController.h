@@ -17,4 +17,13 @@
 @property (nonatomic) BOOL isCompleted;
 @property (nonatomic) float thisDistance;
 
+@property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (strong, nonatomic) IBOutlet UILabel *difficultyLabel;
+@property (strong, nonatomic) IBOutlet UILabel *configurationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *seasonLabel;
+
+@property (strong, nonatomic) IBOutlet UIButton *addHikeButton;
+@property (strong, nonatomic) IBOutlet UIButton *removeHikeButton;
+
+
 @end

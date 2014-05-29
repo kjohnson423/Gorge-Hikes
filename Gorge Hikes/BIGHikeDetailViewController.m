@@ -27,7 +27,19 @@
 {
     [super viewDidLoad];
     NSLog(@"%@", self.thisName);
-    // Do any additional setup after loading the view.
+    
+    self.navigationItem.title = self.thisName;
+    
+    self.distanceLabel.text = [NSString stringWithFormat:@"%.01f", self.thisDistance];
+    self.seasonLabel.text = self.thisSeason;
+    self.configurationLabel.text = self.thisConfiguration;
+    self.difficultyLabel.text = self.thisDifficulty;
+    
+    if (self.isCompleted) {
+        [self.addHikeButton setHidden:YES];
+    } else {
+        [self.removeHikeButton setHidden:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning
